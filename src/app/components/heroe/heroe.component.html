@@ -1,0 +1,12 @@
+<div class="mt-4 mb-4 card text-center">
+    <div class="card-body">
+      <h5 class="card-title">{{heroe.nombre}}</h5>
+      <img [src]="heroe.img" width="500" height="440"alt="">
+      <p class="card-text">{{heroe.bio}}</p>
+    </div>
+    <div class="card-footer text-muted">
+      Aparicion: {{heroe.aparicion}}
+    </div>
+
+    <a routerLink="/heroes" class="btn mt-3 btn-outline-danger w-100">Volver a heroes</a>
+  </div>
